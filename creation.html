@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: #fff;">
+<script>
+    const divname='div'
+    const idname = 'myId'
+    const content='Default'
+   const createNewElement=function(divname,myId,content){
+   const div=document.createElement(divname)
+    console.log(div);
+    div.className='main';
+    div.id=myId
+    div.innerText= content;
+    div.setAttribute("title", "generated title")
+    div.style.color="green";
+    div.style.backgroundColor= "White"
+    div.style.padding='15px'
+    document.body.append(div)
+    }
+    createNewElement('div1','id1','My first div');
+    createNewElement('div2','id2', 'My 2nd div');
+    // document.body.appendChild(firstNode)
+</script>
+</body>
+</html>
