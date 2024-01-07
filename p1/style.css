@@ -1,0 +1,35 @@
+body{
+    background-color: #fff;
+
+}
+
+span{
+
+    height :150px;
+    width: 150px;
+    align-items: center;
+    border:5px solid black;
+    float: right;
+    padding: 20px;
+    margin: 20px;
+    
+}
+span#yellow{
+    background-color: yellow;
+}
+span#red{
+    background-color: red;
+}
+span#blue{
+    background-color: blue;
+}
+span#green{
+    background-color: green;
+}
+span#black{
+    background-color: black;
+}
+span#grey{
+    background-color: grey;
+}
+
