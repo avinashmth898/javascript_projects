@@ -1,0 +1,13 @@
+.bmi{
+    color: black;
+    background-color: grey;
+    height: 80px;
+    width: 250px;
+    padding-top: 50;
+    padding-right: 50;
+    padding-left: 50;
+    padding-bottom: 50px;
+    border-color: aqua;
+    border: 5px solid green;
+}
+
