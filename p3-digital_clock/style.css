@@ -1,0 +1,14 @@
+.clock{
+    color: black;
+    background-color: grey;
+    height: 1px;
+    width: 150px;
+    padding-bottom: 50px;
+    border-color: aqua;
+    border: 5px solid green;
+    font-size: 30px;
+    
+    border-radius: 20px;
+
+}
+
