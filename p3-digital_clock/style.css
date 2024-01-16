@@ -1,13 +1,12 @@
-.bmi{
+.clock{
     color: black;
     background-color: grey;
-    height: 350px;
-    width: 250px;
-    padding-top: 50;
-    padding-right: 50;
-    padding-left: 50;
+    height: 1px;
+    width: 150px;
     padding-bottom: 50px;
     border-color: aqua;
     border: 5px solid green;
+    font-size: 30px;
+    border-radius: 20px;
 }
 
