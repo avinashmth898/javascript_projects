@@ -29,6 +29,7 @@ if(bmi>24.9){results.innerHTML=`<br><span>The BMI is: ${bmi}</span><p>
         <p>  Normal weight = 18.5–24.9</p>
             <p>  Overweight = 25–29.9</p>
 <p> Obesity = BMI of 30 or greater</p>`}
+// we can add the obesity as well similarly
     
     
 });

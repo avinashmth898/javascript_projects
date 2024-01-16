@@ -6,6 +6,7 @@ const clock=document.getElementById('clock')
 setInterval(function(){
     let date=new Date()
     time=date.toLocaleTimeString()
+
     clock.innerHTML=`<span>${time}</span>`
-    console.log(date.toLocaleTimeString())
+    // console.log(date.toLocaleTimeString())
 },1000)
