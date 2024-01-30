@@ -1,6 +1,4 @@
-document.getElementById('lake').onclick =function(){
-    alert("Lake Clicked")
-}
+
 // To select individual tag(jatayu in this case)
 // document.getElementById('jatayu').addEventListener('click',function(e) {
 //     alert('Clicked on Jatayu Earth Centre')
@@ -14,8 +12,3 @@ document.getElementById('lake').onclick =function(){
 
 //event propagation
 // To select the images tag (the parent tag)
-document.getElementById('images').addEventListener('click',function(e) {
-    alert('Clicked on images Earth Centre')
-    console.log(e)
-    console.log(e.timeStamp)
-}, false)
