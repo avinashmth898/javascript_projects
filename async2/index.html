@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Project is here</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const myfunction= function() {
+        console.log("Myfunction called")
+        console.log(".")
+        document.querySelector('h1').innerHTML = "Best project ever"
+    }
+    // const timeoutfunction= setTimeout(function(){
+    //     console.log("Avinash")
+    // },8000)
+    // setInterval(function(){
+    //     console.log("Number")
+    // },20000)
+    const setIntervaltfunction = setInterval(myfunction,1000)
+    // const cleartimeoutfunction = clearTimeout(settimeoutfunction)
+    const start = document.getElementById('start').addEventListener('click',function(){
+        setInterval(setIntervaltfunction)
+        console.log("start clicked")
+        document.getElementById('stop').addEventListener('click',stop)
+    },false)
+    const stop=document.getElementById('stop').addEventListener('click',function(){
+        clearInterval(setIntervaltfunction)
+        console.log("stop clicked")
+    },false)
+</script>
+</html>
