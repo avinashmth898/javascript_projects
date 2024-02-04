@@ -11,16 +11,21 @@ const randomColor=function(){
     return color;
 };
 
+let intervalId
 
-console.log(randomColor())
+// console.log(randomColor())
 const startChangingColor =function () {
-    setInterval(bgChange,500)
+    if (!intervalId){
+    intervalId=setInterval(bgChange,500)
+}
     function bgChange(){
         document.body.style.backgroundColor = randomColor();
     }
 }
 const stopChangingColor =function() {
-    clearInterval(startChangingColor)
+    clearInterval(intervalId)
+    intervalId=null;
+
 }
 document.getElementById('start').addEventListener('click',startChangingColor);
 document.getElementById('stop').addEventListener('click',stopChangingColor);
